@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<title>Parley</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/w3.css">
+  
+
+<body>
+    
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#home" class="w3-bar-item w3-button">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT PARLEY</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+      <i class="fa fa-search"></i>
+    </a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT PARLEY</a>
+    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+    <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">ABOUT PARLEY</h3>
+    
+    
+
+
+    
+  <p class="w3-center"><em></em></p>
+  <p>Parley for the Oceans addresses major threats towards our oceans, the most important ecosystem of our planet. We believe the power for change lies in the hands of the consumer – given we all have a choice – and the power to shape this new consumer mindset lies in the hands of the creative industries. Artists, musicians, actors, filmmakers, fashion designers, journalists, architects, product inventors, and scientists have the tools to mold the reality we live in and to develop alternative business models and ecologically sensible products to give us earthlings an alternative choice, an everyday option to change something. To succeed, we need to find ways to synchronize the economic system of humankind with the ecosystem of nature. And make environmental protection fiscally lucrative for pacesetting major companies. Parley has been created to accelerate a process of change that is already in progress. No other big movement in the history of humankind has developed faster than the environmental cause. We want to make sure we are fast enough to meet the ultimate deadline and turn the ship around before we lose a treasure we have only just started to explore and still don’t fully understand: the fantastic blue universe beneath us — The Oceans.</p>
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+
+            <iframe width="450" height="270" src="https://www.youtube.com/embed/FMlMmN45Vqc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small w3-padding-large">
+      <p>Diminishment of biodiversity in our Ocean is the single greatest threat to the survival of humanity. With diminishment of species in the oceans comes diminishment of the quality of life for humanity. What are the causes of this continuing mass extinction and imminent threat to our collective survival? Human over-population and over-consumption of resources are the primary threats and they bring chemical, oil, noise and plastic pollution with them. Global warming, oceanic acidification, over-fishing, agricultural run-off... The threats are many, but so are the solutions.</p>
+    </div>
+  </div>
+  <p class="w3-large w3-center w3-padding-16">Facts</p>
+    <button onclick="Accordion('Demo1')" class="w3-btn w3-block w3-white w3-left-align">Land-based sources make up...</button>
+<div id="Demo1" class="w3-container w3-hide">
+  <h4>80% of marine pollution</h4>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:80%">80%</div>
+  </div>
+</div>
+<button onclick="Accordion('Demo2')" class="w3-btn w3-block w3-white w3-left-align">Seabirds and other sea animals have...</button>
+<div id="Demo2" class="w3-container w3-hide">
+  <h4>90% chance of getting plastic in their stomachs</h4>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%">90%</div>
+  </div>
+</div>
+<button onclick="Accordion('Demo3')" class="w3-btn w3-block w3-white w3-left-align">We use our donated money on...</button>
+<div id="Demo3" class="w3-container w3-hide">
+  <h4>100% cleaning the oceans</h4>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:100%">100%</div>
+  </div>
+</div>
+    <p class="w3-large w3-center w3-padding-16"></p>
+    
+    
+<div class="w3-row w3-center w3-dark-grey w3-padding-16">
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">700+</span><br>
+    Company Requests
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">55+</span><br>
+    Projects Done
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">200+</span><br>
+    Islands cleaned
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">1</span><br>
+    World to Save
+  </div>
+</div>
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-2 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide"></span>
+  </div>
+</div>
+
+<!-- Container (Contact Section) -->
+<div class="w3-content w3-container w3-padding-64" id="contact">
+  <h3 class="w3-center">Contact us</h3>
+  <p class="w3-center"></p>
+
+  <div class="w3-row w3-padding-32 w3-section">
+    <div class="w3-col m4 w3-container">
+    </div>
+    <div class="w3-col m8 w3-panel">
+      <div class="w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> NEW YORK, US<br>
+        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: (646) 860-5906<br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: Parley@gmail.com<br>
+      </div>
+      <p>Join the movement:</p>
+      <form action="/action_page.php" target="_blank">
+        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+          </div>
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+          </div>
+        </div>
+        <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+        <button class="w3-button w3-black w3-right w3-section" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+    <script src="js/slideshow.js"></script>
+
+</body>
+</html>
